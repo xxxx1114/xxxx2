@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>易烊千玺个人简历</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/js.js"></script>
+	</head>
+	<body>
+		<div class="head">
+		    <div class="left"><img src="images/logo.jpg" /></div>
+		    <div class="right"><img src="images/name2.jpg" /></div>
+		</div>
+		<p></p>
+		<p></p>
+		<div id="nav">
+		    <ul class="nav">
+		        <li><a href="#" class="color_in">网站首页</a></li>
+		        <li><a href="#">基本信息</a></li>
+		        <li><a href="#">演艺经历</a></li>
+		        <li><a href="#">主要作品</a></li>
+		        <li><a href="#">社会活动</a></li>
+		        <li><a href="#">人物事件</a></li>
+		        <li><a href="#">获奖记录</a></li>
+		    </ul>
+		</div>
+		<div class="banner">
+		    <ul class="banner_pic" id="banner_pic">
+		        <li class="current"><img class="one" align="center" src="images/004.jpg"/></li>
+		        <li class="pic"><img class="one" src="images/01.jpg"/></li>
+		        <li class="pic"><img class="one" src="images/02.jpg"/></li>
+				<li class="pic"><img class="one" src="images/03.jpg"/></li>
+				<li class="pic"><img class="one" src="images/04.jpg"/></li>
+		    </ul>
+		    <ol id="button">
+		        <li class="current"></li>
+		        <li class="but"></li>
+		        <li class="but"></li>
+				<li class="but"></li>
+				<li class="but"></li>
+		    </ol>
+		</div>
+		<div id="learn">
+		<table border="2" align="center">
+			<h2>易烊千玺简介</h2>
+			<tr><th>本名</th><td>易烊千玺</td><th>外文名</th><td>Jackson Yee</td></tr>
+			<tr><th>性别</th><td>男</td><th>民族</th><td>汉族</td></tr>
+			<tr><th>国籍</th><td>中国</td><th>出生地</th><td>湖南省怀化市</td></tr>
+			<tr><th>出生日期</th><td>2000年11月28日</td><th>星座</th><td>射手座</td></tr>
+			<tr><th>职业</th><td>演员、歌手、舞者</td><th>特长</th><td>舞蹈、书法、魔术、乐器等</td></tr>
+			<tr><th>个人应援色</th><td>红色</td><th>粉丝名称</th><td>千纸鹤</td></tr>
+		</table>
+		<h2>作品集</h2>
+		<div id="bigBox" class="bigBox clearfix">
+			<ul id="imgList" class="imgList clearfix">
+				<li class="item"><img src="images/111.jpg"></li>
+				<li class="item"><img src="images/222.jpg"></li>
+				<li class="item"><img src="images/333.jpg"></li>
+				<li class="item"><img src="images/444.jpg"></li>
+				<li class="item"><img src="images/555.jpg"></li>
+				<li class="item"><img src="images/666.jpg"></li>
+				<li class="item"><img src="images/111.jpg"></li>
+				<li class="item"><img src="images/222.jpg"></li>
+				<li class="item"><img src="images/333.jpg"></li>
+				<li class="item"><img src="images/444.jpg"></li>
+				<li class="item"><img src="images/555.jpg"></li>
+				<li class="item"><img src="images/666.jpg"></li>
+			</ul>
+		</div>
+		<script type="text/javascript" >
+			const imgList = document.querySelector('#imgList')
+			setInterval(function(){
+				if(imgList.offsetLeft<=-1500){
+					imgList.style.left=0;
+				}
+				imgList.style.left=(imgList.offsetLeft -5) +'px'
+			},80)
+		</script>
+		<div class="footer">@班级：21电商2班    姓名：贺丽萍   学号：21102020216   日期：2024年6月21日　</div>
+	</body>
+</html>
